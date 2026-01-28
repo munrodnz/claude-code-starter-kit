@@ -10,13 +10,13 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 echo ""
 echo "🚀 Claude Code Starter Kit Installer"
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 
 # Validate target directory
 if [ ! -d "$TARGET_DIR" ]; then
-  echo "❌ Error: Target directory '$TARGET_DIR' does not exist"
-  exit 1
+  echo "✔️ Creating target directory: $TARGET_DIR"
+  mkdir -p "$TARGET_DIR"
 fi
 
 # Create .claude directory structure
@@ -75,4 +75,3 @@ echo "   1. Review settings: cat $SETTINGS_FILE"
 echo "   2. Test hooks: git status"
 echo "   3. Start Claude Code session"
 echo ""
-
