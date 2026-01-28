@@ -2,7 +2,7 @@
 
 To maximize the functionality of the Claude Code Starter Kit, ensure the following tools and dependencies are installed:
 
-- **Beads by Steve Yegge** (Required): Beads streamlines development workflows and provides additional context for hooks. Install using [Beads GitHub repository](https://github.com/yourusername/beads) and follow the setup instructions.
+- **Beads by Steve Yegge** (Required): Beads streamlines development workflows and provides additional context for hooks. Install using [Beads GitHub repository](https://github.com/steveyegge/beads) and follow the setup instructions.
 
 - **Convex** (Optional): For Convex projects, Convex hooks are included. Install Convex at [Convex](https://docs.convex.dev/).
 
